@@ -1,10 +1,9 @@
 /* PROGRAMA PARA REGISTRAR PERROS EN UN ASILO  */
-// librerias
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
-main(){ // funcion principal
-struct perro{ // declaro la estructura perro con sus variables de diferente tipo
+main(){ 
+struct perro{ // estructura perro con sus variables de diferente tipo
 char fecha[10];
 char raza[30];
 char color[50];
